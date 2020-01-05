@@ -16,12 +16,7 @@ def text_detection(image):
             }
     payload = {"requests": [data]}
     auth = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    # print("target url: ")
-    # print(TARGET_URL)
-    # print("json: ")
-    # print(payload)
-    # print("headers: ")
-    # print(auth)
+
     resp = requests.post(TARGET_URL, json=payload, headers=auth)
     resp.raise_for_status()
     return resp
@@ -38,12 +33,7 @@ def image_detection(image):
             }
     payload = {"requests": [data]}
     auth = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-    # print("target url: ")
-    # print(TARGET_URL)
-    # print("json: ")
-    # print(payload)
-    # print("headers: ")
-    # print(auth)
+
     resp = requests.post(TARGET_URL, json=payload, headers=auth)
     resp.raise_for_status()
     return resp
@@ -57,8 +47,11 @@ if __name__ == '__main__':
             # print(resp.text)
             # print(type(resp))
             # print(resp.text)
-            print(dir(resp))
-            print(resp.text)
+            # print(dir(resp))
+            # print(resp.text)
+            if "https://www.amazon" in resp.text:
+                print("Amazon link exists in text body")
+
         else:
             imfiles = [open(join(source, f), "rb") for f in listdir(source) if isfile(join(source, f))]
 
@@ -67,3 +60,7 @@ if __name__ == '__main__':
 
 # With this API, you can use RESTful requests to get either web search or image search results in JSON format.
 # GET https://www.googleapis.com/customsearch/v1?key=INSERT_YOUR_API_KEY&cx=017576662512468239146:omuauf_lfve&q=lectures
+
+
+# Price
+# https://docs.aws.amazon.com/AWSECommerceService/latest/DG/EX_RetrievingPriceInformation.html
