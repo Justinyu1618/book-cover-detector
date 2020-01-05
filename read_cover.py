@@ -4,7 +4,8 @@ import base64
 from os import listdir
 from os.path import isfile, join
 
-ACCESS_TOKEN = "ya29.Il-4B4qmPkJectkjoX9WIhPcmuzPrkGXQXeusTe8uyax5TTsXcZsOLihx8N05nZ1zHNrzRvP_hxlDzCi_skY6-vQJpswV0Nu8PBMUhXmI6siS2_7xKuOOf03RHlbv_D5vw"
+from _secrets import *
+
 TARGET_URL = "https://vision.googleapis.com/v1/images:annotate"
 
 
