@@ -100,9 +100,9 @@ def create_request(ASIN):
   # use urllib.parse.quote_plus() if using Python 3
   canonical_querystring = "Service=AWSECommerceService&Operation=ItemLookup&ResponseGroup=Offers&IdType=ASIN"
 
-  body = "&ItemId=" + ASIN
-  body += "&AssociateTag=" + AMAZON_AFFILIATE_ID
+  body = "&AssociateTag=" + AMAZON_AFFILIATE_ID
   body += "&AWSAccessKeyId=" + AWS_ACCESS_KEY_ID
+  body += "&ItemId=" + ASIN
   body += "&Timestamp=" + param_date
 
   canonical_querystring += body
