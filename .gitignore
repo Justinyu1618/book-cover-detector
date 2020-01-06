@@ -1,2 +1,5 @@
 _secrets.py
 __pycache__/
+
+book_covers
+book32-listing.csv
