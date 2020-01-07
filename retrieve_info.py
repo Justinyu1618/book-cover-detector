@@ -1,5 +1,6 @@
 
 from goodreads import get_goodreads_details
+import datetime
 
 def retrieve_info(isbn):
     """
@@ -15,7 +16,7 @@ def retrieve_info(isbn):
       "Authors": authors,
       "Average_rating": average_rating,
       "Num_ratings": num_ratings,
-      "pg_count": page_count,
+      "pg_count": pg_count,
       "actual_reviews": actual_reviews,
       "description": description
     }
@@ -23,4 +24,6 @@ def retrieve_info(isbn):
     return response_dict
 
 if __name__ == '__main__':
+  startTime = datetime.datetime.now()
   print(retrieve_info("0393355624"))
+  print(datetime.datetime.now() - startTime)

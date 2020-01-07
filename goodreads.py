@@ -113,12 +113,14 @@ def get_goodreads_details(isbn):
     # Reviews
     review_block = soup.find('div', {'id': 'reviews'})
     reviews = review_block.find_all('span', {'id': re.compile('^freeTextContainer')})
-    actual_reviews = []
-    for review in reviews:
-        review = strip_tags(str(review))
-        end_index = review.rfind(".")
-        review = review[:end_index + 1]
-        actual_reviews.append(review)
+    actual_reviews = reviews[0]
+
+    # for i in range(0, 5):
+    #     review = reviews[i]
+    #     review = strip_tags(str(review))
+    #     end_index = review.rfind(".")
+    #     review = review[:end_index + 1]
+    #     actual_reviews.append(review)
 
     # # Friend reviews
     # review_block = soup.find('div', {'id': 'reviews'})
