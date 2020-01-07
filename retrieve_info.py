@@ -1,5 +1,5 @@
 
-import get_data from read_cover
+from goodreads import get_goodreads_details
 
 def retrieve_info(isbn):
     """
@@ -8,8 +8,8 @@ def retrieve_info(isbn):
     """
     book_title, authors, average_rating, \
                 num_ratings, pg_count, \
-                    actual_reviews, description =
-    pass
+                    actual_reviews, description = get_goodreads_details(isbn)
+    return get_goodreads_details(isbn)
 
 if __name__ == '__main__':
-  retrieve_info()
+  print(retrieve_info("0393355624"))
