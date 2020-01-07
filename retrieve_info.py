@@ -9,7 +9,18 @@ def retrieve_info(isbn):
     book_title, authors, average_rating, \
                 num_ratings, pg_count, \
                     actual_reviews, description = get_goodreads_details(isbn)
-    return get_goodreads_details(isbn)
+
+    response_dict = {
+      "Book_Title": book_title,
+      "Authors": authors,
+      "Average_rating": average_rating,
+      "Num_ratings": num_ratings,
+      "pg_count": page_count,
+      "actual_reviews": actual_reviews,
+      "description": description
+    }
+
+    return response_dict
 
 if __name__ == '__main__':
   print(retrieve_info("0393355624"))
