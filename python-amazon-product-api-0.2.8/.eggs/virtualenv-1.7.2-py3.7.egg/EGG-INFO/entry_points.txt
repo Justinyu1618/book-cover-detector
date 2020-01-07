@@ -1,0 +1,4 @@
+[console_scripts]
+virtualenv = virtualenv:main
+virtualenv-3.7 = virtualenv:main
+
