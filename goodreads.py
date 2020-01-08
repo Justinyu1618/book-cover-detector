@@ -113,7 +113,7 @@ def get_goodreads_details(isbn):
     # Reviews
     review_block = soup.find('div', {'id': 'reviews'})
     reviews = review_block.find_all('span', {'id': re.compile('^freeTextContainer')})
-    actual_reviews = reviews[0]
+    actual_reviews = reviews[0].text
 
     # for i in range(0, 5):
     #     review = reviews[i]
