@@ -1,12 +1,12 @@
 import os
 from flask import Flask, session, request, jsonify
 from read_cover import read_cover
-from retrieve_info import retrieve_info
+from retrieve_info import *
 
 app = Flask(__name__, instance_relative_config=True)
 
-@app.route("/get_data", methods=["GET", "POST"])
-def get_data():
+@app.route("/primary_data", methods=["GET", "POST"])
+def primary_data():
 	response = {
 		'data': None,
 		'success': False
@@ -22,7 +22,30 @@ def get_data():
 		if not ISBN:
 			return "NO ISBN FOUND! :("
 
-		data = retrieve_info(ISBN)
+		data = retrieve_primary_info(ISBN)
+		data["isbn"] = ISBN
+		data["amazon"] = am_link
+
+		if data:
+			response['success'] = True 
+			response['data'] = data
+	except Exception as e:
+		print(f"ERROR: {e}")
+
+	return jsonify(response)
+
+@app.route("/secondary_data", methods=["GET"])
+def secondary_data():
+	response = {
+		'data': None,
+		'success': False
+	}
+	try:
+		ISBN = request.args.get("isbn")
+		if not ISBN:
+			return "NO ISBN FOUND! :("
+
+		data = retrieve_secondary_info(ISBN)
 		data["isbn"] = ISBN
 		data["amazon"] = am_link
 
