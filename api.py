@@ -5,10 +5,10 @@ from retrieve_info import retrieve_info
 
 app = Flask(__name__, instance_relative_config=True)
 
-@app.route("/get_data", methods=["GET"])
+@app.route("/get_data", methods=["GET", "POST"])
 def get_data():
-	# ISBN = request.args.get("isbn")
-	image = request.args.get("image")  #base64 encoded image
+	if request.method == "GET":
+		image = request.args.get("image")  #base64 encoded image
 	response = {
 		'data': None,
 		'success': False
