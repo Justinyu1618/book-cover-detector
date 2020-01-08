@@ -261,7 +261,7 @@ def read_cover(image, isfile=False):
     """
     if isfile:
         image = open(image, "rb")
-        image = base64.b64encode(image.read())
+        image = base64.b64encode(image.read()).decode("utf-8")
     resp = image_detection(image)
     text = get_text(resp)
     if not text:
