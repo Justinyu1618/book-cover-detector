@@ -1,5 +1,5 @@
 
-from goodreads_api import get_goodreads_details
+from goodreads_data import get_goodreads_details
 import datetime
 
 def retrieve_info(isbn):

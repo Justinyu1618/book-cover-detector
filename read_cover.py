@@ -8,7 +8,7 @@ import json
 import ast
 import datetime
 from _secrets import *
-from goodreads import get_goodreads_details
+from goodreads_data import get_goodreads_details
 from pprint import pprint
 from urllib import parse
 from googlesearch import search
