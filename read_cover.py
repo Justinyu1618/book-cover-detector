@@ -25,6 +25,8 @@ import time
 # nlp = spacy.load('xx_ent_wiki_sm')
 
 import nltk
+nltk.download("names")
+nltk.download("stopwords")
 # from nltk.tag.stanford import StanfordNERTagger
 from bs4 import BeautifulSoup
 
