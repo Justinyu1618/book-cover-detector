@@ -2,6 +2,13 @@ import goodreads_api_client as gr
 from _secrets import *
 import datetime
 from html.parser import HTMLParser
+import os
+
+if os.environ.get("SETTING") == "prod":
+    GOODREADS_KEY = os.environ.get("GOODREADS_KEY")
+    GOODREADS_SECRETS_KEY = os.environ.get("GOODREADS_SECRETS_KEY")
+
+
 
 class MLStripper(HTMLParser):
     def __init__(self):

@@ -8,6 +8,10 @@ import json
 import ast
 import datetime
 from _secrets import *
+
+if os.environ.get("SETTING") == "prod":
+    ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+
 from goodreads_data import get_goodreads_details
 from pprint import pprint
 from urllib import parse
