@@ -1,0 +1,660 @@
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:8.167941093444824
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+ FAILED
+Time:7.356449365615845
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:7.683483123779297
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:7.538356065750122
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]0679417397: [{'title': 'Nineteen eighty-four', 'author': 'George Orwell'}]0451524934: [{'title': '1984', 'author': 'George Orwell'}]
+Time:9.853615999221802
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]0300242751: []0300196873: []1888708379: []
+Time:13.847179412841797
+
+Source: book_covers/31_days.jpg
+Google ISBNS: 0671510576: [{'title': 'The Billion Dollar Molecule', 'author': 'Barry Werth'}]1400067782: [{'title': "Banquet at Delmonico's", 'author': 'Barry Werth'}]0060555564: [{'title': 'The cell game', 'author': "Alex Prud'homme"}]
+Time:5.898227691650391
+
+Source: book_covers/334.jpg
+Google ISBNS: 0375706615: [{'title': 'The Vintage book of amnesia', 'author': 'Jonathan Lethem'}]0385539908: [{'title': "A gambler's anatomy", 'author': 'Jonathan Lethem'}]0307277526: [{'title': 'Chronic City (Vintage Contemporaries)', 'author': 'Jonathan Lethem'}]0062859064: [{'title': 'The feral detective', 'author': 'Jonathan Lethem'}]
+Time:6.5800395011901855
+
+Source: book_covers/41st_publication_design_annual.jpg
+Google ISBNS: 1592532659: [{'title': '41st Publication Design Annual', 'author': 'The Society of Publication Designers'}]1592535860: [{'title': '44th Publication Design Annual', 'author': 'Society of Publication Designers'}]
+Time:5.762883901596069
+
+Source: book_covers/8.jpg
+Google ISBNS: 1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1582433682: [{'title': '8', 'author': 'Amy Fusselman'}]1938073231: [{'title': 'Pharmacists Mate 8', 'author': 'Amy Fusselman'}]0970335539: [{'title': "The pharmacist's mate", 'author': 'Amy Fusselman'}]0544570200: [{'title': 'Savage Park', 'author': 'Amy Fusselman'}]
+Time:7.283148527145386
+
+Source: book_covers/9th_and_13th.jpg
+Google ISBNS: 0141022752: [{'title': '9th and 13th', 'author': 'Jonathan Coe'}]1491532440: []0525656472: []
+Time:10.881134033203125
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you (1).jpg
+Google ISBNS: 0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]
+Time:11.38508915901184
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you.jpg
+Google ISBNS: 0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]
+Time:9.668174266815186
+
+Source: book_covers/about_a_mountain (1).jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]1555973779: [{'title': 'Halls of Fame', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]1555977340: [{'title': 'The Making of the American Essay', 'author': "John D'Agata"}]
+Time:9.108843803405762
+
+Source: book_covers/about_a_mountain.jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]
+Time:9.361285209655762
+
+Source: book_covers/about_grace.jpg
+Google ISBNS: 1501173219: [{'title': 'All the Light We Cannot See: A Novel', 'author': 'Anthony Doerr'}]1476789010: []
+Time:9.792332649230957
+
+Source: book_covers/abraham_lincoln.jpg
+Google ISBNS: 0871564300: [{'title': 'Material world', 'author': 'Peter Menzel'}]1632154749: [{'title': 'Material', 'author': 'Ales Kot'}]1571202811: [{'title': 'The Art of Fabric Books', 'author': 'Jan Smiley'}]0750655542: [{'title': 'Materials and design', 'author': 'Mike Ashby'}]
+Time:8.150112628936768
+
+Source: book_covers/a_breath_of_life.jpg
+Google ISBNS: 0811219909: [{'title': 'Água viva', 'author': 'Clarice Lispector'}]
+Time:19.10621976852417
+
+Source: book_covers/a_brick_stuffed_with_moom-bins.jpg
+Google ISBNS: 193553601X: [{'title': 'Ignatz', 'author': 'Monica Youn'}]160699316X: [{'title': 'Krazy Ignatz Love In A Kestle Or Love In A Hut Convening The Fullpage Comic Strips 19161918', 'author': 'Bill Blackbeard'}]156097690X: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]1683962559: []1560977892: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]1560975075: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]1560975296: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]1560977345: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]
+Time:38.445213079452515
+
+Source: book_covers/absent_a_miracle.jpg
+Google ISBNS: 1536666076: []0547335709: []1511340983: []
+Time:8.954568862915039
+
+Source: book_covers/abyssinian_chronicles.jpg
+Google ISBNS: 0375705775: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0330376640: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0375719210: [{'title': 'Snakepit', 'author': 'Moses Isegawa'}]
+Time:7.212402582168579
+
+Source: book_covers/acceptance.jpg
+Google ISBNS: 0374104115: [{'title': 'Acceptance', 'author': 'Jeff VanderMeer'}]0374261172: [{'title': 'Area X: The Southern Reach Trilogy: Annihilation; Authority; Acceptance', 'author': 'Jeff VanderMeer'}]0007553536: [{'title': 'Acceptance', 'author': ' Michael [Translator] Kellner'}]1483083934: []0008288216: [{'title': 'Area X: The Southern Reach Trilogy', 'author': 'Jeff VanderMeer'}]
+Time:7.578463554382324
+
+Source: book_covers/accident.jpg
+Google ISBNS: 0226314847: [{'title': 'Accident', 'author': 'Ross Hamilton'}]
+Time:8.665167570114136
+
+Source: book_covers/a_chance_meeting.jpg
+Google ISBNS: 0812971299: [{'title': 'A Chance Meeting', 'author': 'Rachel Cohen'}]
+Time:9.356120824813843
+
+Source: book_covers/a_clockwork_orange.jpg
+Google ISBNS: 0393312836: [{'title': 'A clockwork orange', 'author': 'Anthony Burgess'}]3453130790: [{'title': 'A Clockwork Orange', 'author': 'Anthony Burgess'}]345316413X: [{'title': 'A Clockwork Orange', 'author': 'Anthony Burgess'}]0393928098: [{'title': 'A clockwork orange', 'author': 'Anthony Burgess'}]1514369044: []
+Time:7.634827375411987
+
+Source: book_covers/a_concise_chinese-english_dictionary_for_lovers.jpg
+Google ISBNS: 0307278409: []
+Time:10.365867853164673
+
+Source: book_covers/a_coney_island_of_the_mind.jpg
+Google ISBNS: 0811217477: [{'title': 'A Coney Island of the Mind', 'author': 'Lawrence Ferlinghetti'}]0811200418: [{'title': 'A Coney Island of the mind', 'author': 'Lawrence Ferlinghetti'}]8875219095: []081122712X: [{'title': "Ferlinghetti's greatest poems", 'author': 'Lawrence Ferlinghetti'}]078819108X: []0811220311: [{'title': 'Time of useful consciousness', 'author': 'Lawrence Ferlinghetti'}]
+Time:6.916065454483032
+
+Source: book_covers/a_confession.jpg
+Google ISBNS: 0141042559: []0141036699: []1907355243: []1907355235: []0143035002: [{'title': 'Anna Karenina', 'author': 'Tolstoy'}]1504721780: []1610451600: []0141042559: []
+Time:8.899052858352661
+
+Source: book_covers/a_cook’s_tour.jpg
+ FAILED
+Time:6.553341865539551
+
+Source: book_covers/ada,_or_ardor.jpg
+Google ISBNS: 0679725229: [{'title': 'Ada, or, Ardor, a family chronicle', 'author': 'Vladimir Nabokov'}]0679729976: [{'title': 'The stories of Vladimir Nabokov.', 'author': 'Vladimir Nabokov'}]0679726098: [{'title': 'Strong opinions', 'author': 'Vladimir Nabokov'}]0375755349: []884591254X: []
+Time:9.311111450195312
+
+Source: book_covers/adland.jpg
+ FAILED
+Time:5.158109903335571
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:6.966025352478027
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:7.73270058631897
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.066134452819824
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+ FAILED
+Time:4.017645835876465
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:4.648024797439575
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:4.05888557434082
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]0679417397: [{'title': 'Nineteen eighty-four', 'author': 'George Orwell'}]0451524934: [{'title': '1984', 'author': 'George Orwell'}]
+Time:4.972700595855713
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]0300242751: []0300196873: []
+Time:4.800961256027222
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.541557550430298
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+ FAILED
+Time:3.9662296772003174
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:4.396662950515747
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:4.599694728851318
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]
+Time:4.2776219844818115
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]
+Time:4.255058288574219
+
+Source: book_covers/31_days.jpg
+Google ISBNS: 0671510576: [{'title': 'The Billion Dollar Molecule', 'author': 'Barry Werth'}]
+Time:4.231412649154663
+
+Source: book_covers/334.jpg
+Google ISBNS: 0375706615: [{'title': 'The Vintage book of amnesia', 'author': 'Jonathan Lethem'}]
+Time:4.709063768386841
+
+Source: book_covers/41st_publication_design_annual.jpg
+Google ISBNS: 1592532659: [{'title': '41st Publication Design Annual', 'author': 'The Society of Publication Designers'}]
+Time:4.0786707401275635
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.340899705886841
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.786338806152344
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+ FAILED
+Time:3.855104923248291
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:4.0030128955841064
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:4.191259145736694
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]
+Time:5.0577192306518555
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]
+Time:4.463643550872803
+
+Source: book_covers/31_days.jpg
+Google ISBNS: 0671510576: [{'title': 'The Billion Dollar Molecule', 'author': 'Barry Werth'}]
+Time:4.286908864974976
+
+Source: book_covers/334.jpg
+Google ISBNS: 0375706615: [{'title': 'The Vintage book of amnesia', 'author': 'Jonathan Lethem'}]
+Time:4.898843765258789
+
+Source: book_covers/41st_publication_design_annual.jpg
+Google ISBNS: 1592532659: [{'title': '41st Publication Design Annual', 'author': 'The Society of Publication Designers'}]
+Time:4.296033143997192
+
+Source: book_covers/8.jpg
+Google ISBNS: 1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]
+Time:4.043970346450806
+
+Source: book_covers/9th_and_13th.jpg
+Google ISBNS: 0141022752: [{'title': '9th and 13th', 'author': 'Jonathan Coe'}]
+Time:4.0293755531311035
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you (1).jpg
+Google ISBNS: 0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]
+Time:5.0689308643341064
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.250306129455566
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.183870315551758
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+Google ISBNS: 1595580956: []
+Time:4.269721746444702
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:4.289085388183594
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:4.330831527709961
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]0679417397: [{'title': 'Nineteen eighty-four', 'author': 'George Orwell'}]0451524934: [{'title': '1984', 'author': 'George Orwell'}]
+Time:4.655702590942383
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]0300242751: []0300196873: []
+Time:4.835195064544678
+
+Source: book_covers/31_days.jpg
+Google ISBNS: 0671510576: [{'title': 'The Billion Dollar Molecule', 'author': 'Barry Werth'}]1400067782: [{'title': "Banquet at Delmonico's", 'author': 'Barry Werth'}]
+Time:4.4442243576049805
+
+Source: book_covers/334.jpg
+Google ISBNS: 0375706615: [{'title': 'The Vintage book of amnesia', 'author': 'Jonathan Lethem'}]0385539908: [{'title': "A gambler's anatomy", 'author': 'Jonathan Lethem'}]0307277526: [{'title': 'Chronic City (Vintage Contemporaries)', 'author': 'Jonathan Lethem'}]0062859064: [{'title': 'The feral detective', 'author': 'Jonathan Lethem'}]
+Time:5.839134454727173
+
+Source: book_covers/41st_publication_design_annual.jpg
+Google ISBNS: 1592532659: [{'title': '41st Publication Design Annual', 'author': 'The Society of Publication Designers'}]1592535860: [{'title': '44th Publication Design Annual', 'author': 'Society of Publication Designers'}]
+Time:4.600671768188477
+
+Source: book_covers/8.jpg
+Google ISBNS: 1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1582433682: [{'title': '8', 'author': 'Amy Fusselman'}]
+Time:4.916773796081543
+
+Source: book_covers/9th_and_13th.jpg
+Google ISBNS: 0141022752: [{'title': '9th and 13th', 'author': 'Jonathan Coe'}]1491532440: []0525656472: []
+Time:4.636578798294067
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you (1).jpg
+Google ISBNS: 0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]0060995149: [{'title': 'Come to me', 'author': 'Amy Bloom'}]0812977807: [{'title': 'Where the God of Love Hangs Out', 'author': 'Amy Bloom'}]
+Time:5.867872953414917
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you.jpg
+Google ISBNS: 0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]
+Time:4.731369495391846
+
+Source: book_covers/about_a_mountain (1).jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]1555973779: [{'title': 'Halls of Fame', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]1555975321: [{'title': 'The Lost Origins of the Essay (A New History of the Essay)', 'author': "John D'Agata"}]
+Time:5.404028415679932
+
+Source: book_covers/about_a_mountain.jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]
+Time:5.038698434829712
+
+Source: book_covers/about_grace.jpg
+Google ISBNS: 1501173219: [{'title': 'All the Light We Cannot See: A Novel', 'author': 'Anthony Doerr'}]1476789010: []
+Time:5.120701789855957
+
+Source: book_covers/abraham_lincoln.jpg
+ FAILED
+Time:4.020512580871582
+
+Source: book_covers/a_breath_of_life.jpg
+Google ISBNS: 0811219623: [{'title': 'A breath of life (pulsations)', 'author': 'Clarice Lispector'}]0811229602: []
+Time:4.686923980712891
+
+Source: book_covers/a_brick_stuffed_with_moom-bins.jpg
+Google ISBNS: 193553601X: [{'title': 'Ignatz', 'author': 'Monica Youn'}]160699316X: [{'title': 'Krazy Ignatz Love In A Kestle Or Love In A Hut Convening The Fullpage Comic Strips 19161918', 'author': 'Bill Blackbeard'}]156097690X: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]
+Time:4.797914505004883
+
+Source: book_covers/absent_a_miracle.jpg
+Google ISBNS: 1536666076: []0547335709: []
+Time:4.451741695404053
+
+Source: book_covers/abyssinian_chronicles.jpg
+Google ISBNS: 0375705775: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0330376640: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0375719210: [{'title': 'Snakepit', 'author': 'Moses Isegawa'}]
+Time:4.795529842376709
+
+Source: book_covers/acceptance.jpg
+Google ISBNS: 0374104115: [{'title': 'Acceptance', 'author': 'Jeff VanderMeer'}]0374261172: [{'title': 'Area X: The Southern Reach Trilogy: Annihilation; Authority; Acceptance', 'author': 'Jeff VanderMeer'}]0007553536: [{'title': 'Acceptance', 'author': ' Michael [Translator] Kellner'}]
+Time:5.385327339172363
+
+Source: book_covers/accident.jpg
+Google ISBNS: 0226314847: [{'title': 'Accident', 'author': 'Ross Hamilton'}]
+Time:4.046542167663574
+
+Source: book_covers/a_chance_meeting.jpg
+Google ISBNS: 0812971299: [{'title': 'A Chance Meeting', 'author': 'Rachel Cohen'}]0374107033: []
+Time:5.00379753112793
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.165472507476807
+
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:3.967524290084839
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+Google ISBNS: 1595580956: []
+Time:4.135818004608154
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:4.266290903091431
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:4.078665733337402
+
+Source: book_covers/1984.jpg
+Google ISBNS: 015626224X: [{'title': 'Down and out in Paris and London', 'author': 'George Orwell'}]0679417397: [{'title': 'Nineteen eighty-four', 'author': 'George Orwell'}]0451524934: [{'title': '1984', 'author': 'George Orwell'}]
+Time:4.682976007461548
+
+Source: book_covers/2010:_whitney_biennial.jpg
+Google ISBNS: 0300162421: [{'title': '2010', 'author': 'Whitney Biennial (2010)'}]0300242751: []0300196873: []
+Time:4.811903715133667
+
+Source: book_covers/31_days.jpg
+Google ISBNS: 0671510576: [{'title': 'The Billion Dollar Molecule', 'author': 'Barry Werth'}]1400067782: [{'title': "Banquet at Delmonico's", 'author': 'Barry Werth'}]
+Time:4.761666536331177
+
+Source: book_covers/334.jpg
+Google ISBNS: 0375706615: [{'title': 'The Vintage book of amnesia', 'author': 'Jonathan Lethem'}]0385539908: [{'title': "A gambler's anatomy", 'author': 'Jonathan Lethem'}]0307277526: [{'title': 'Chronic City (Vintage Contemporaries)', 'author': 'Jonathan Lethem'}]0062859064: [{'title': 'The feral detective', 'author': 'Jonathan Lethem'}]
+Time:5.0551512241363525
+
+Source: book_covers/41st_publication_design_annual.jpg
+Google ISBNS: 1592532659: [{'title': '41st Publication Design Annual', 'author': 'The Society of Publication Designers'}]1592535860: [{'title': '44th Publication Design Annual', 'author': 'Society of Publication Designers'}]
+Time:4.6121766567230225
+
+Source: book_covers/8.jpg
+Google ISBNS: 1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1566895138: [{'title': 'Idiophone', 'author': 'Amy Fusselman'}]1582433682: [{'title': '8', 'author': 'Amy Fusselman'}]
+Time:4.604739189147949
+
+Source: book_covers/9th_and_13th.jpg
+Google ISBNS: 0141022752: [{'title': '9th and 13th', 'author': 'Jonathan Coe'}]1491532440: []0525656472: []
+Time:4.304673194885254
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you (1).jpg
+Google ISBNS: 0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]0060995149: [{'title': 'Come to me', 'author': 'Amy Bloom'}]0812977807: [{'title': 'Where the God of Love Hangs Out', 'author': 'Amy Bloom'}]
+Time:5.629489898681641
+
+Source: book_covers/a_blind_man_can_see_how_much_i_love_you.jpg
+Google ISBNS: 0375705570: [{'title': 'A Blind Man Can See How Much I Love You ', 'author': 'Amy Bloom'}]0375502688: [{'title': 'A blind man can see how much I love you', 'author': 'Amy Bloom'}]
+Time:4.5712502002716064
+
+Source: book_covers/about_a_mountain (1).jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]1555973779: [{'title': 'Halls of Fame', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]1555975321: [{'title': 'The Lost Origins of the Essay (A New History of the Essay)', 'author': "John D'Agata"}]
+Time:5.487461805343628
+
+Source: book_covers/about_a_mountain.jpg
+Google ISBNS: 0393339017: [{'title': 'About a mountain', 'author': "John D'Agata"}]0393340732: [{'title': 'The lifespan of a fact', 'author': "John D'Agata"}]
+Time:4.338983774185181
+
+Source: book_covers/about_grace.jpg
+Google ISBNS: 1501173219: [{'title': 'All the Light We Cannot See: A Novel', 'author': 'Anthony Doerr'}]1476789010: []
+Time:4.715709447860718
+
+Source: book_covers/abraham_lincoln.jpg
+ FAILED
+Time:4.260869979858398
+
+Source: book_covers/a_breath_of_life.jpg
+Google ISBNS: 0811219623: [{'title': 'A breath of life (pulsations)', 'author': 'Clarice Lispector'}]0811229602: []
+Time:4.6519553661346436
+
+Source: book_covers/a_brick_stuffed_with_moom-bins.jpg
+Google ISBNS: 193553601X: [{'title': 'Ignatz', 'author': 'Monica Youn'}]160699316X: [{'title': 'Krazy Ignatz Love In A Kestle Or Love In A Hut Convening The Fullpage Comic Strips 19161918', 'author': 'Bill Blackbeard'}]156097690X: [{'title': 'Krazy & Ignatz', 'author': 'George Herriman'}]
+Time:4.480444431304932
+
+Source: book_covers/absent_a_miracle.jpg
+Google ISBNS: 1536666076: []0547335709: []
+Time:4.272616624832153
+
+Source: book_covers/abyssinian_chronicles.jpg
+Google ISBNS: 0375705775: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0330376640: [{'title': 'Abyssinian chronicles', 'author': 'Moses Isegawa'}]0375719210: [{'title': 'Snakepit', 'author': 'Moses Isegawa'}]
+Time:4.8068342208862305
+
+Source: book_covers/acceptance.jpg
+Google ISBNS: 0374104115: [{'title': 'Acceptance', 'author': 'Jeff VanderMeer'}]0374261172: [{'title': 'Area X: The Southern Reach Trilogy: Annihilation; Authority; Acceptance', 'author': 'Jeff VanderMeer'}]0007553536: [{'title': 'Acceptance', 'author': ' Michael [Translator] Kellner'}]
+Time:4.519347190856934
+
+Source: book_covers/accident.jpg
+Google ISBNS: 0226314847: [{'title': 'Accident', 'author': 'Ross Hamilton'}]
+Time:3.917208433151245
+
+Source: book_covers/a_chance_meeting.jpg
+Google ISBNS: 0812971299: [{'title': 'A Chance Meeting', 'author': 'Rachel Cohen'}]0374107033: []
+Time:5.05797553062439
+
+Source: book_covers/a_clockwork_orange.jpg
+Google ISBNS: 0393312836: [{'title': 'A clockwork orange', 'author': 'Anthony Burgess'}]3453130790: [{'title': 'A Clockwork Orange', 'author': 'Anthony Burgess'}]
+Time:4.3681089878082275
+
+Source: book_covers/a_concise_chinese-english_dictionary_for_lovers.jpg
+Google ISBNS: 0307278409: []
+Time:4.124955177307129
+
+Source: book_covers/a_coney_island_of_the_mind.jpg
+Google ISBNS: 0811217477: [{'title': 'A Coney Island of the Mind', 'author': 'Lawrence Ferlinghetti'}]0811200418: [{'title': 'A Coney Island of the mind', 'author': 'Lawrence Ferlinghetti'}]
+Time:4.375796318054199
+
+Source: book_covers/a_confession.jpg
+Google ISBNS: 0141042559: []0141036699: []1907355243: []1907355235: []
+Time:5.584183931350708
+
+Source: book_covers/a_cook’s_tour.jpg
+ FAILED
+Time:4.514453411102295
+
+Source: book_covers/ada,_or_ardor.jpg
+Google ISBNS: 0679725229: [{'title': 'Ada, or, Ardor, a family chronicle', 'author': 'Vladimir Nabokov'}]0679729976: [{'title': 'The stories of Vladimir Nabokov.', 'author': 'Vladimir Nabokov'}]0679726098: [{'title': 'Strong opinions', 'author': 'Vladimir Nabokov'}]
+Time:4.654445648193359
+
+Source: book_covers/adland.jpg
+Google ISBNS: 0767928970: []
+Time:4.286624908447266
+
+Source: book_covers/adultery.jpg
+ FAILED
+Time:3.9583146572113037
+
+Source: book_covers/adverbs.jpg
+Google ISBNS: 1632864274: [{'title': 'Bottle Grove :a novel', 'author': 'Daniel Handler'}]0060724420: [{'title': 'Adverbs', 'author': 'Daniel Handler'}]006093817X: [{'title': 'Watch Your Mouth', 'author': 'Daniel Handler'}]160819776X: []
+Time:5.222449541091919
+
+Source: book_covers/aeneid.jpg
+Google ISBNS: 0872207315: [{'title': 'Aeneid', 'author': 'Publius Vergilius Maro'}]1624667724: []1624667732: []1603843078: [{'title': 'Metamorphoses', 'author': 'Publius Ovidius Naso'}]0872203522: [{'title': 'Iliad', 'author': 'Homer'}]
+Time:6.232018232345581
+
+Source: book_covers/a_few_short_notes_on_tropical_butterflies.jpg
+Google ISBNS: 0060509295: [{'title': 'A Few Short Notes on Tropical Butterflies', 'author': 'John Murray'}]0060509287: [{'title': 'A few short notes on tropical butterflies', 'author': 'Murray, John'}]
+Time:5.35836124420166
+
+Source: book_covers/a_field_guide_to_getting_lost.jpg
+Google ISBNS: 0143037242: [{'title': 'A field guide to getting lost', 'author': 'Rebecca Solnit'}]1534438491: []1786890518: []
+Time:5.2106804847717285
+
+Source: book_covers/a_fire_in_the_sun.jpg
+ FAILED
+Time:3.9829964637756348
+
+Source: book_covers/a_fragile_social_fabric?.jpg
+Google ISBNS: 0773525777: [{'title': 'A fragile social fabric?', 'author': 'Raymond Breton'}]0773525777: [{'title': 'A fragile social fabric?', 'author': 'Raymond Breton'}]
+Time:4.690734148025513
+
+Source: book_covers/after_america.jpg
+Google ISBNS: 067002094X: [{'title': 'After America', 'author': 'Paul Starobin'}]
+Time:4.462139129638672
+
+Source: book_covers/after_dark.jpg
+Google ISBNS: 1400079276: [{'title': 'Kafka on the shore', 'author': '春樹 村上'}]0679775439: [{'title': 'The Wind-up Bird Chronicle', 'author': '春樹 村上'}]0307278735: [{'title': 'After Dark (Vintage International)', 'author': '春樹 村上'}]
+Time:5.024488210678101
+
+Source: book_covers/afterwards.jpg
+ FAILED
+Time:4.038159370422363
+
+Source: book_covers/against_happiness.jpg
+Google ISBNS: 1443414565: []0062116932: [{'title': 'Search Inside Yourself', 'author': 'Chade-Meng Tan'}]0062414852: []1335016023: []0593084195: [{'title': 'The Algebra of Happiness: Notes on the Pursuit of Success, Love, and Meaning', 'author': 'Scott Galloway'}]
+Time:5.347355842590332
+
+Source: book_covers/against_the_day.jpg
+Google ISBNS: 0143112562: [{'title': 'Against the Day', 'author': 'Thomas Pynchon'}]1611490642: [{'title': "Pynchon's Against the day", 'author': 'Jeffrey Severs'}]
+Time:4.616581201553345
+
+Source: book_covers/a_general_theory_of_love.jpg
+Google ISBNS: 0375709223: [{'title': 'A General Theory of Love', 'author': 'Thomas Lewis'}]
+Time:5.117838621139526
+
+Source: book_covers/a_good_and_happy_child.jpg
+Google ISBNS: 0307351289: [{'title': 'A good and happy child', 'author': 'Justin Evans'}]
+Time:4.298643350601196
+
+Source: book_covers/a_history_of_histories.jpg
+Google ISBNS: 0375727671: []
+Time:4.617631435394287
+
+Source: book_covers/a_house_in_the_sky.jpg
+Google ISBNS: 1451645619: [{'title': 'A house in the sky', 'author': 'Amanda Lindhout'}]1451651481: []
+Time:124.77378439903259
+
+Source: book_covers/aldous_huxley.jpg
+Google ISBNS: 0349113483: []0316854921: [{'title': 'Aldous Huxley', 'author': 'Murray, Nicholas.'}]0312302371: [{'title': 'Aldous Huxley', 'author': 'Murray, Nicholas.'}]
+Time:5.028923988342285
+
+Source: book_covers/alena:_a_novel.jpg
+Google ISBNS: 1594632472: [{'title': 'Alena', 'author': 'Rachel Pastan'}]0151013691: [{'title': 'Lady of the Snakes', 'author': 'Rachel Pastan'}]0156035057: [{'title': 'Lady of the snakes', 'author': 'Rachel Pastan'}]0786186992: []
+Time:4.976899862289429
+
+Source: book_covers/alles_is_mogelijk_in_een_gedicht.jpg
+Google ISBNS: 9023460308: [{'title': 'Verzamelde gedichten', 'author': 'Lubertus Jacobus Swaanswijk'}]0446364517: []0345405641: [{'title': 'The Great War', 'author': 'Harry Turtledove'}]
+Time:4.677806377410889
+
+Source: book_covers/all_the_pretty_horses.jpg
+Google ISBNS: 1614642095: []
+Time:4.717093229293823
+
+Source: book_covers/all_the_sad_young_literary_men.jpg
+Google ISBNS: 0143114778: [{'title': 'All the sad young literary men', 'author': 'Keith Gessen'}]
+Time:4.463846206665039
+
+Source: book_covers/a_mad_desire_to_dance.jpg
+Google ISBNS: 0805212124: [{'title': 'A mad desire to dance', 'author': 'Elie Wiesel'}]
+Time:4.882883071899414
+
+Source: book_covers/a_madman_dreams_of_turing_machines (1).jpg
+Google ISBNS: 1400032407: []1400032725: [{'title': 'How the Universe Got Its Spots', 'author': 'Janna Levin'}]0691096570: [{'title': 'How the Universe Got Its Spots', 'author': 'Janna Levin'}]
+Time:5.289753198623657
+
+Source: book_covers/a_madman_dreams_of_turing_machines.jpg
+Google ISBNS: 1400032407: []
+Time:4.730281829833984
+
+Source: book_covers/americana.jpg
+Google ISBNS: 0140119485: [{'title': 'Americana', 'author': 'Don DeLillo'}]2868698220: [{'title': 'Americana', 'author': 'Don DeLillo'}]0679722939: [{'title': 'Players', 'author': 'Don DeLillo'}]
+Time:5.013240575790405
+
+Source: book_covers/american_nerd.jpg
+ FAILED
+Time:4.109405040740967
+
+Source: book_covers/american_psycho.jpg
+Google ISBNS: 0679735771: [{'title': 'American Psycho', 'author': 'Bret Easton Ellis'}]3462036998: [{'title': 'American Psycho', 'author': 'Bret Easton Ellis'}]8762100475: []
+Time:4.9429192543029785
+
+Source: book_covers/americans_in_paris.jpg
+Google ISBNS: 1931082561: [{'title': 'Americans in Paris', 'author': 'Adam Gopnik'}]
+Time:4.201070785522461
+
+Source: book_covers/american_surfaces.jpg
+ FAILED
+Time:4.696050643920898
+
+Source: book_covers/amerika.jpg
+Google ISBNS: 0805210644: [{'title': 'Amerika', 'author': 'Franz Kafka'}]
+Time:4.2175726890563965
+
+Source: book_covers/a_midsummer_night’s_dream.jpg
+Google ISBNS: 0140714553: [{'title': "A midsummer night's dream", 'author': 'William Shakespeare'}]1503250784: []1907127283: [{'title': 'A Midsummer Nights Dream The Graphic Novel Original Text', 'author': 'William Shakespeare'}]0141396660: []
+Time:5.164562225341797
+
+Source: book_covers/a_million_little_pieces.jpg
+Google ISBNS: 0307276902: [{'title': 'A Million Little Pieces', 'author': 'James Frey'}]
+Time:4.2257208824157715
+
+Source: book_covers/among_other_things,_i’ve_taken_up_smoking.jpg
+Google ISBNS: 0143113410: [{'title': "Among other things, I've taken up smoking", 'author': 'Aoibheann Sweeney'}]
+Time:7.275617361068726
+
+Source: book_covers/amsterdam.jpg
+Google ISBNS: 0385494246: [{'title': 'Amsterdam', 'author': 'Ian McEwan'}]1400076196: [{'title': 'Saturday', 'author': 'Ian McEwan'}]
+Time:4.743633031845093
+
+Source: book_covers/an_anthology_of_graphic_fiction,_cartoons,_and_true_stories:_volume_2.jpg
+Google ISBNS: 0300111703: [{'title': 'An Anthology of Graphic Fiction, Cartoons, and True Stories', 'author': 'Ivan Brunetti'}]0300126719: [{'title': 'An anthology of graphic fiction, cartoons, & true stories', 'author': 'Ivan Brunetti'}]
+Time:4.2846715450286865
+
+Source: book_covers/an_apology_for_idlers.jpg
+Google ISBNS: 0141043962: []0141399244: []1516521641: []
+Time:4.495891094207764
+
+Source: book_covers/an_appeal_to_the_toiling,_oppressed_and_exhausted_peoples_of_europe.jpg
+Google ISBNS: 0141036753: [{'title': 'An Appeal To The Toiling Oppressed And Exhausted Peoples Of Europe', 'author': 'Leon Trotsky'}]
+Time:7.425583362579346
+
+Source: book_covers/and_the_hippos_were_boiled_in_their_tanks.jpg
+Google ISBNS: 0802144349: [{'title': 'And The Hippos Were Boiled In Their Tanks', 'author': 'James Grauerholz'}]1846141648: []
+Time:4.610613822937012
+
+Source: book_covers/and_then_there’s_this.jpg
+Google ISBNS: 0143117610: []
+Time:4.351139783859253
+
+Source: book_covers/an_ethics_of_interrogation.jpg
+Google ISBNS: 0226761614: [{'title': 'An ethics of interrogation', 'author': 'Michael Skerker'}]
+Time:4.4526143074035645
+
+Source: book_covers/a_neutral_corner.jpg
+Google ISBNS: 0865474958: [{'title': 'A Neutral Corner', 'author': 'A. J. Liebling'}]
+Time:4.400631904602051
+
+Source: book_covers/an_experiment_in_love.jpg
+ FAILED
+Time:3.9921581745147705
+
+Source: book_covers/angry_candy.jpg
+ FAILED
+Time:4.106012344360352
+
+Source: book_covers/animal_farm.jpg
+Google ISBNS: 0451526341: [{'title': 'Animal farm', 'author': 'George Orwell'}]0140126708: [{'title': 'Animal farm', 'author': 'George Orwell'}]0141182709: [{'title': 'Animal Farm (Penguin Modern Classics)', 'author': 'George Orwell'}]0151072558: [{'title': 'Animal farm', 'author': 'George Orwell'}]
+Time:5.009588718414307
+
+Source: book_covers/animal_sanctuary.jpg
+Google ISBNS: 074329159X: [{'title': 'Farm sanctuary', 'author': 'Gene Baur'}]074329159X: [{'title': 'Farm sanctuary', 'author': 'Gene Baur'}]
+Time:4.663973569869995
+
+Source: book_covers/annihilation.jpg
+Google ISBNS: 0374104093: [{'title': 'Annihilation', 'author': 'Jeff VanderMeer'}]0374276803: [{'title': 'Dead Astronauts', 'author': 'Jeff VanderMeer'}]
+Time:4.57471776008606
+
+Source: book_covers/antoine’s_alphabet.jpg
+Google ISBNS: 0307385949: [{'title': "Antoine's alphabet", 'author': 'Jed Perl'}]
+Time:4.274421215057373
+
