@@ -71,9 +71,8 @@ def text_detection(image):
     return resp
 
 
-def image_detection(image):
-    encoded_im = base64.b64encode(image.read())
-    data = {"image": {"content": encoded_im.decode('utf-8')},
+def image_detection(encoded_im):
+    data = {"image": {"content": encoded_im},
             "features": [
                 # {"type": "WEB_DETECTION",
                 # "maxResults": 100000
@@ -258,7 +257,9 @@ def read_cover(image, isfile=False):
     """ 
     Takes in Image, identifies the book and spits out ISBN number
     """
-    image = open(image, "rb")
+    if isfile:
+        image = open(image, "rb")
+        image = base64.b64encode(image.read())
     resp = image_detection(image)
     text = get_text(resp)
     if not text:
@@ -268,7 +269,7 @@ def read_cover(image, isfile=False):
     if isbns:
         final = isbns[0]
         print(f"ISBN FOUND: {final}")
-        print(f"INFO: {get_book_info(final)}")
+        # print(f"INFO: {get_book_info(final)}")
         return final
     else:
         return None
