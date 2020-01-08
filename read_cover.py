@@ -7,10 +7,11 @@ import re
 import json
 import ast
 import datetime
-from _secrets import *
 
 if os.environ.get("SETTING") == "prod":
     ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+else:
+    from _secrets import *
 
 from goodreads_data import get_goodreads_details
 from pprint import pprint
