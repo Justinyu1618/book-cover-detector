@@ -8,7 +8,10 @@ app = Flask(__name__, instance_relative_config=True)
 @app.route("/get_data", methods=["GET", "POST"])
 def get_data():
 	if request.method == "GET":
-		image = request.args.get("image")  #base64 encoded image
+		image_file = request.args.get("image")  #base64 encoded image
+	elif request.method == "POST":
+		image_b64 = request.get_json()["image"]
+		print(image_b64)
 	response = {
 		'data': None,
 		'success': False
