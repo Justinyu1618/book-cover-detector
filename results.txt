@@ -658,3 +658,19 @@ Source: book_covers/antoine’s_alphabet.jpg
 Google ISBNS: 0307385949: [{'title': "Antoine's alphabet", 'author': 'Jed Perl'}]
 Time:4.274421215057373
 
+Source: book_covers/1000_black_umbrellas.jpg
+Google ISBNS: 1935904000: [{'title': '1000 Black Umbrellas A Collection Of Poetry', 'author': 'Daniel McGinn'}]
+Time:4.345655679702759
+
+Source: book_covers/10_excellent_reasons_not_to_join_the_military.jpg
+Google ISBNS: 1595580956: []
+Time:4.772449493408203
+
+Source: book_covers/13_things_that_don?t_make_sense.jpg
+Google ISBNS: 0307278816: [{'title': "13 Things that Don't Make Sense", 'author': 'Michael Brooks'}]
+Time:5.856189727783203
+
+Source: book_covers/1914.jpg
+Google ISBNS: 0141022205: [{'title': '1914', 'author': 'Niall Ferguson'}]
+Time:5.489108085632324
+

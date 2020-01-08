@@ -252,24 +252,20 @@ def read_cover(image, isfile=False):
     """ 
     Takes in Image, identifies the book and spits out ISBN number
     """
-    if isfile:
-        image = open(image, "rb")
+    image = open(image, "rb")
     resp = image_detection(image)
-    am_links = find_amazon(resp)
-    if not am_links:
+    text = get_text(resp)
+    if not text:
         return None
-    re_isbn = re.compile(r'/dp/([0-9xX]{10})')
-
-    candidates = []
-    for link in am_links:
-        match = re_isbn.findall(link)
-        if len(match) == 0:
-            print(link)
-            return None 
-        match = match[0]
-        if valid_ISBN(match):
-            candidates.append(match)
-    return candidates
+    resp = perform_google_search(text)
+    isbns = parse_google_search(resp)
+    if isbns:
+        final = isbns[0]
+        print(f"ISBN FOUND: {final}")
+        print(f"INFO: {get_book_info(final)}")
+        return final
+    else:
+        return None
 
 
 def extract_info_openlib(resp):

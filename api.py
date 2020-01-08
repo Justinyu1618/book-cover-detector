@@ -7,18 +7,18 @@ app = Flask(__name__, instance_relative_config=True)
 
 @app.route("/get_data", methods=["GET"])
 def get_data():
-	payload = request.args.get("isbn")
-	# image = payload['image']  #base64 encoded image
-	ISBN = payload
+	# ISBN = request.args.get("isbn")
+	image = request.args.get("image")  #base64 encoded image
 	response = {
 		'data': None,
 		'success': False
 	}
 
 	try:
-		# ISBN = read_cover(image)
+		ISBN = read_cover(image)
+		if not ISBN:
+			return "NO ISBN FOUND! :("
 		info = retrieve_info(ISBN)
-		print(info)
 		if info:
 			response['success'] = True 
 			response['data'] = info
