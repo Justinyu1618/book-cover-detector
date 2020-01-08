@@ -14,18 +14,21 @@ def get_data():
 	try:
 		if request.method == "GET":
 			image_file = request.args.get("image")  #base64 encoded image
-			ISBN = read_cover(image_file, isfile=True)
+			ISBN, am_link = read_cover(image_file, isfile=True)
 		else:
 			image_b64 = request.get_json()["image"]
-			print(image_b64)
-			ISBN = read_cover(image_b64)	
+			ISBN, am_link = read_cover(image_b64)	
 
 		if not ISBN:
 			return "NO ISBN FOUND! :("
-		info = retrieve_info(ISBN)
-		if info:
+
+		data = retrieve_info(ISBN)
+		data["isbn"] = ISBN
+		data["amazon"] = am_link
+
+		if data:
 			response['success'] = True 
-			response['data'] = info
+			response['data'] = data
 	except Exception as e:
 		print(f"ERROR: {e}")
 

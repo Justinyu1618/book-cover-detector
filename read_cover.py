@@ -130,7 +130,7 @@ def parse_google_search(resp):
     for link in resp:
         match = pattern.findall(link)
         if match:
-            matches.append(match[0])
+            matches.append((match[0], str(link)))
     return matches
 
 
@@ -269,7 +269,7 @@ def read_cover(image, isfile=False):
     resp = perform_google_search(text)
     isbns = parse_google_search(resp)
     if isbns:
-        final = isbns[0]
+        final = isbns[0] # (isbn, amazon_link)
         print(f"ISBN FOUND: {final}")
         # print(f"INFO: {get_book_info(final)}")
         return final

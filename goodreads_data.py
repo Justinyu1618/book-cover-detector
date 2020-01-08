@@ -2,6 +2,8 @@ import goodreads_api_client as gr
 import datetime
 from html.parser import HTMLParser
 import os
+import json
+from collections import OrderedDict
 
 if os.environ.get("SETTING") == "prod":
     GOODREADS_KEY = os.environ.get("GOODREADS_KEY")
@@ -22,10 +24,15 @@ class MLStripper(HTMLParser):
     def get_data(self):
         return ''.join(self.fed)
 
-def strip_tags(html):
-    s = MLStripper()
-    s.feed(html)
-    return s.get_data()
+def strip_content(resp):
+    if type(resp) == str: #strip HTML
+        s = MLStripper()
+        s.feed(resp)
+        return s.get_data()
+    elif type(resp) == OrderedDict:
+        return json.loads(json.dumps(resp))
+    else: 
+        return resp
 
 def get_goodreads_details(isbn):
     """
@@ -34,8 +41,8 @@ def get_goodreads_details(isbn):
     """
     client = gr.Client(developer_key=GOODREADS_KEY, developer_secret=GOODREADS_SECRETS_KEY)
     book = client.Book.show_by_isbn(isbn)
-    keys_wanted = ['title', 'description', 'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count']
-    reduced_book = {k:strip_tags(v) for k, v in book.items() if k in keys_wanted}
+    keys_wanted = ['title', 'description', 'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count','authors','similar_books']
+    reduced_book = {k:strip_content(v) for k, v in book.items() if k in keys_wanted}
     return reduced_book
 
 if __name__ == '__main__':
