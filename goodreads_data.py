@@ -3,6 +3,7 @@ import datetime
 from html.parser import HTMLParser
 import os
 import json
+import time
 from collections import OrderedDict
 
 if os.environ.get("SETTING") == "prod":
@@ -39,10 +40,12 @@ def get_goodreads_details(isbn):
     param: isbn
     returns: book_title, authors, average_rating, num_ratings, pg_count, actual_reviews, description
     """
+    start = time.time()
     client = gr.Client(developer_key=GOODREADS_KEY, developer_secret=GOODREADS_SECRETS_KEY)
     book = client.Book.show_by_isbn(isbn)
     keys_wanted = ['title', 'description', 'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count','authors','similar_books']
     reduced_book = {k:strip_content(v) for k, v in book.items() if k in keys_wanted}
+    print(f"TIME: {time.time() - start}")
     return reduced_book
 
 if __name__ == '__main__':

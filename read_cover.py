@@ -80,7 +80,6 @@ def image_detection(encoded_im):
                 # "maxResults": 100000
                 # },
                 {"type": "TEXT_DETECTION",
-                "maxResults": 100000
                 }
                 ]
             }
