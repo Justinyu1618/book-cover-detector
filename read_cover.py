@@ -8,6 +8,7 @@ import json
 import ast
 import datetime
 from _secrets import *
+from goodreads import get_goodreads_details
 
 GOOGLE_TARGET_URL = "https://vision.googleapis.com/v1/images:annotate"
 
@@ -75,10 +76,9 @@ def get_price_with_ASIN(id):
     date = datetime.datetime.now().replace(microsecond=0).isoformat()
     RequestDateTime = re.sub(r'\W+', '', date) + "Z"
 
-    request_signature =
-        Algorithm + "\n" +
-        RequestDateTime + "\n" +
-        CredentialScope + "\n" +
+    request_signature = Algorithm + "\n" + \
+        RequestDateTime + "\n" + \
+        CredentialScope + "\n" + \
         HashedCanonicalRequest
 
     data = {"Service": "AWSECommerceService",
@@ -125,32 +125,46 @@ def find_amazon(resp):
         print(f"FAILED!: {e}")
         return None
 
+def get_data(imfile):
+    """
+    This takes an encoded image and returns data about the image.
+    """
+    resp = image_detection(imfile)
+    url = get_amazon_url_from_results(resp)
+    ASIN = get_ASIN(url)
+    return get_goodreads_details(ASIN)
 
 if __name__ == '__main__':
-    if len(sys.argv) >= 2:
-        try:
-            count_all = 0
-            count_im = 0
-            count_am = 0
-            with open("results.txt", "a"):
-                for source in sys.argv[1:]:
-                    print(f"\nScraping {source}")
-                    imfile = open(source, "rb")
-                    resp = image_detection(imfile)
-                    matches = find_amazon(resp)
-                    if not matches:
-                        print("No Amazon Links!")
-                        count_fail += 1
-                    else:
-                        print("Amazon product matches!")
-                        print(matches)
-                        count_am += 1
-                    count_all += 1
-        except KeyboardInterrupt:
-            print("\n\n")
-            pass
-        print(f"{count_im}/{count_all} images found")
-        print(f"{count_am}/{count_all} amazon pages found")
+    startTime = datetime.datetime.now()
+    if len(sys.argv) == 2:
+        source = sys.argv[1]
+        if "." in source:
+            # TODO -- this needs to be the imfile
+            imfile = open(sys.argv[1], "rb")
+
+            book_title, authors, average_rating, \
+             num_ratings, pg_count, \
+                actual_reviews, description = get_data(imfile)
+
+            # print("book title: ")
+            # print(book_title)
+            # print("authors:")
+            # print(authors)
+            # print("average rating: ")
+            # print(average_rating)
+            # print("num_ratings")
+            # print(num_ratings)
+            # print("page count")
+            # print(pg_count)
+            # print("actual reviews")
+            # print(actual_reviews)
+            # print("description")
+            # print(description)
+
+            print(datetime.datetime.now() - startTime)
+        else:
+            imfiles = [open(join(source, f), "rb") for f in listdir(source) if isfile(join(source, f))]
+
     else:
         print("read_cover.py <file path>")
 
