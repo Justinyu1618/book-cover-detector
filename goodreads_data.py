@@ -28,7 +28,6 @@ def get_goodreads_details(isbn):
     book = client.Book.show_by_isbn(isbn)
     keys_wanted = ['title', 'description', 'average_rating', 'num_pages', 'ratings_count', 'text_reviews_count']
     reduced_book = {k:strip_tags(v) for k, v in book.items() if k in keys_wanted}
-    print(reduced_book)
     return reduced_book
 
 if __name__ == '__main__':
