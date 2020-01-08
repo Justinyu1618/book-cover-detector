@@ -25,12 +25,12 @@ import time
 # nlp = spacy.load('xx_ent_wiki_sm')
 
 import nltk
-from nltk.tag.stanford import StanfordNERTagger
+# from nltk.tag.stanford import StanfordNERTagger
 from bs4 import BeautifulSoup
 
-classifier_path = 'stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz'
-jar_path = 'stanford-ner-2018-10-16/stanford-ner.jar'
-STANF = StanfordNERTagger(classifier_path, jar_path)
+# classifier_path = 'stanford-ner-2018-10-16/classifiers/english.all.3class.distsim.crf.ser.gz'
+# jar_path = 'stanford-ner-2018-10-16/stanford-ner.jar'
+# STANF = StanfordNERTagger(classifier_path, jar_path)
 
 GOOGLE_CLOUD_URL = "https://vision.googleapis.com/v1/images:annotate"
 OPEN_LIB_URL = 'http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data'
