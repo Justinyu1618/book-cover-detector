@@ -29,49 +29,49 @@ There's only one endpoint
 **Body:**
 ```json
 {
-	"success": True if any data is returned,
+	"success": , //True if any data is returned
 	"primary_data": {
-		"amazon": amazon product link,
-		"title": book title,
-		"text_reviews_count": # of reviews on GoodReads,
-		"average_rating": GoodReads rating,
-		"description": book summary,
-		"isbn": isbn number,
+		"amazon": , //amazon product link
+		"title": , //book title
+		"text_reviews_count": , //# of reviews on GoodReads
+		"average_rating": , //GoodReads rating
+		"description": , //book summary
+		"isbn": , //isbn number
 		"authors": { 
 			"author": {
-				"name": name of author,
-				"average_rating": author rating on goodreads,
-				"id": goodreads id,
+				"name": , //name of author
+				"average_rating": , //author rating on goodreads
+				"id": , //goodreads id
 				"image_url": {
-					"#text": link,
-					"@nophoto": whether there isn't a photo? lol
+					"#text": , //link
+					"@nophoto": , //whether there isn't a photo? lol
 				},
 				"small_image_url": {
-					... same as "image_url" ...
+					// ... same as "image_url" ...
 				},
-				"ratings_count": number of ratings,
-				"role": ? ,
-				"link": goodreads profile
+				"ratings_count": , //number of ratings
+				"role": , // ?
+				"link": , //goodreads profile
 			}
 		},
 		"num_pages": ,
-		"ratings_count": # of goodreads ratings,
+		"ratings_count": ,//# of goodreads ratings
 		"similar_books": {
-			... don't worry about this lol ... 
+			// ... don't worry about this lol ... 
 		},
-	}
+	},
 	"secondary_data": {
-		"price": amazon price,
+		"price": , //amazon price
 		"reviews": [
 			{ 
-				"date": date of review,
-				"description": review body,
-				"name": reviewer name,
-				"profile_img": link to image,
-				"rating": out of 5.0,
-				"title": review_title
+				"date": , //date of review
+				"description": , //review body
+				"name": , //reviewer name
+				"profile_img": , //link to image
+				"rating": , //out of 5.0
+				"title": , //review_title
 			},
-			...
+			// ...
 		]
 	}
 }
