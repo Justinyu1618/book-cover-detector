@@ -11,7 +11,7 @@ There's only one endpoint
 
 **Methods**
 * GET: (for testing purposes only)
-	* image="sample_covers/[ name of cover image ]"
+	* `image=sample_covers/[ name of cover image ]`
 * POST:
 	* body:
  ```{ image: "base64 encoding of image"}```
