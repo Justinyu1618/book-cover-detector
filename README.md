@@ -27,7 +27,7 @@ There's only one endpoint
 * **required** if `data_type=secondary`
 ### Response
 **Body:**
-```json
+```
 {
 	"success": , //True if any data is returned
 	"primary_data": {
