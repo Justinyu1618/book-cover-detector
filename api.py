@@ -47,7 +47,6 @@ def secondary_data():
 
 		data = retrieve_secondary_info(ISBN)
 		data["isbn"] = ISBN
-		data["amazon"] = am_link
 
 		if data:
 			response['success'] = True 
