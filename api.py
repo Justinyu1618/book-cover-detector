@@ -2,36 +2,56 @@ import os
 from flask import Flask, session, request, jsonify
 from read_cover import read_cover
 from retrieve_info import *
+import time
 
 app = Flask(__name__, instance_relative_config=True)
 
-@app.route("/primary_data", methods=["GET", "POST"])
-def primary_data():
+@app.route("/get_data", methods=["GET", "POST"])
+def get_data():
 	response = {
-		'data': None,
+		'primary_data': None,
+		'secondary_data': None,
 		'success': False
 	}
+
+	data_type = request.args.get("data_type")
+	do_prim = data_type == "primary" or data_type is None
+	do_second = data_type == "secondary" or data_type is None
+	print(do_second, do_prim)
 	try:
+		start = time.time()
 		if request.method == "GET":
 			image_file = request.args.get("image")  #base64 encoded image
 			ISBN, am_link = read_cover(image_file, isfile=True)
 		else:
 			image_b64 = request.get_json()["image"]
-			ISBN, am_link = read_cover(image_b64)	
-
+			ISBN, am_link = read_cover(image_b64)
 		if not ISBN:
 			return "NO ISBN FOUND! :("
+		print(f"COVER: {time.time() - start}")
 
-		data = retrieve_primary_info(ISBN)
-		data["isbn"] = ISBN
-		data["amazon"] = am_link
+		if do_prim:
+			mid = time.time()
+			primary = retrieve_primary_info(ISBN)
+			primary["isbn"] = ISBN
+			primary["amazon"] = am_link
+			print(f"PRIMARY: {time.time() - mid}")
+			if primary:
+				response['success'] = True 
+				response['primary_data'] = primary
 
-		if data:
-			response['success'] = True 
-			response['data'] = data
+		if do_second:
+			late = time.time()
+			secondary = retrieve_secondary_info(ISBN)
+			print(f"SECONDARY: {time.time() - late}")
+			if secondary:
+				response['success'] = True 
+				response['secondary_data'] = secondary
+
 	except Exception as e:
 		print(f"ERROR: {e}")
 
+	print(f"TOTAL: {time.time() - start}")
 	return jsonify(response)
 
 @app.route("/secondary_data", methods=["GET"])
@@ -44,10 +64,7 @@ def secondary_data():
 		ISBN = request.args.get("isbn")
 		if not ISBN:
 			return "NO ISBN FOUND! :("
-
 		data = retrieve_secondary_info(ISBN)
-		data["isbn"] = ISBN
-
 		if data:
 			response['success'] = True 
 			response['data'] = data

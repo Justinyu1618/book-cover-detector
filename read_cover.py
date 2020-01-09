@@ -248,7 +248,8 @@ def get_data(imfile):
     """
     This takes an encoded image and returns data about the image.
     """
-    resp = image_detection(imfile)
+    image = base64.b64encode(image.read()).decode("utf-8")
+    resp = image_detection(image)
     url = get_amazon_url_from_results(resp)
     ASIN = get_ASIN(url)
     return get_goodreads_details(ASIN)
@@ -294,8 +295,9 @@ def test_results(*args):
         try: 
             for source in args[1:]:
                 print(f"\nScraping {source}")
-                imfile = open(source, "rb")
-                resp = image_detection(imfile)
+                image = open(source, "rb")
+                image = base64.b64encode(image.read()).decode("utf-8")
+                resp = image_detection(image)
                 am_links = find_amazon(resp)
                 labels = get_labels(resp)
                 text = get_text(resp)
@@ -344,33 +346,36 @@ def test_google(*args):
                 start = time.time()
                 count_all += 1
                 print(f"\nScraping {source}")
-                imfile = open(source, "rb")
-                resp = image_detection(imfile)
+                image = open(source, "rb")
+                image = base64.b64encode(image.read()).decode("utf-8")
+                resp = image_detection(image)
                 # am_links = find_amazon(resp)
                 # labels = get_labels(resp)
                 text = get_text(resp)
                 # tags = extract_author(text)
                 if not text:
                     continue
-                print(time.time() - start)
+                print(f"Google Cloud: {time.time() - start}")
                 mid = time.time()
                 resp = perform_google_search(text)
                 isbns = parse_google_search(resp)
-                print(time.time() - mid)
+                print(f"Google Search: {time.time() - mid}")
                 if isbns:
-                    later = time.time()
+                    total_time = time.time() - start
+                    print(f"TOTAL: {total_time}")
+                    # later = time.time()
                     final_str = ""
-                    for isbn in isbns:
+                    for isbn, link in isbns:
                         book_info = get_book_info(isbn)
                         final_str += f"{isbn}: {extract_info_openlib(book_info)}"
-                    print(time.time() - later)
+                    # print(time.time() - later)
                     with open("results.txt", "a") as file:
-                        file.write(f"Source: {source}\nGoogle ISBNS: {final_str}\nTime:{time.time() - start}\n\n")
+                        file.write(f"Source: {source}\nGoogle ISBNS: {final_str}\nTime:{total_time}\n\n")
                     count_google += 1
                 else:
+                    print("FAIL")
                     with open("results.txt", "a") as file:
                         file.write(f"Source: {source}\n FAILED\nTime:{time.time() - start}\n\n")
-                
         except KeyboardInterrupt as e:
             pass
         print(count_all, count_google)
