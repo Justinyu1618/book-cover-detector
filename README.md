@@ -17,6 +17,7 @@ There's only one endpoint
  ```{ image: "base64 encoding of image"}```
 
 **Other Parameters**
+
 `data_type=` 
 * `primary` - response returns primary data
 * `secondary` - response returns secondary data
