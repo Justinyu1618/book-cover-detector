@@ -27,17 +27,21 @@ def get_data():
 			if("image" not in request.args):
 				return open("index.html","r").read()
 			image_file = request.args.get("image")  #base64 encoded image
-			ISBN, am_link = read_cover(image_file, isfile=True)
+			result = read_cover(image_file, isfile=True)
 		else:
 			if 'file' in request.files:
 				file = request.files['file']
 				if file.filename == '':
 					return "No File Found"
 				image = base64.b64encode(file.read()).decode("utf-8")
-				ISBN, am_link = read_cover(image)
+				result = read_cover(image)
 			else:
 				image_b64 = request.get_json()["image"]
-				ISBN, am_link = read_cover(image_b64)
+				result = read_cover(image_b64)
+		if result:
+			ISBN, am_link = result
+		else:
+			return jsonify("everything is fucked")
 		if not ISBN:
 			return "NO ISBN FOUND! :("
 		print(f"COVER: {time.time() - start}")

@@ -30,7 +30,7 @@
 			    body: formData,
 			  }).then(response => response.json())
 			  .then(data => {
-			  	document.write(JSON.stringify(data))
+			  	document.write(JSON.stringify(data, null, 2))
 			  })
 			})
 		</script>
