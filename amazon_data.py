@@ -50,8 +50,9 @@ def get_amazon_details(isbn):
     amazon_base_url = "https://www.amazon.com/dp/"
     amazon_url = amazon_base_url + isbn
     req = Request(amazon_url, headers={'User-Agent': 'Mozilla/5.0'})
+    print(req)
     page = urlopen(req).read().decode("utf-8")
-
+    print(page)
     price = re_price.search(page)
     if price is None: price = re_price2.search(page)
     if price is not None: price = price.group(1)
