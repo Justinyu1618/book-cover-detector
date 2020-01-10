@@ -191,15 +191,23 @@ def find_image_links(resp):
     if type(resp) is not dict:
         resp = resp.json()
     try:
-        objs = []
-        for val in resp["responses"][0]["webDetection"].values():
-            objs.extend(val)
-        matches = [u["url"] for u in objs if "url" in u and "amazon.com" in u["url"]]
-        amazon_links = [m for m in matches if "https://www.amazon.com" in m]
-        return (matches, amazon_links)
+        resp = resp["responses"][0]["webDetection"]
+        print(resp)
+        if "fullMatchingImages" in resp:
+            print("f")
+            urls = [entry["url"] for entry in resp["fullMatchingImages"]]
+        elif "partialMatchingImages" in resp:
+            print("p")
+            urls = [entry["url"] for entry in resp["partialMatchingImages"]]
+        elif "visuallySimilarImages" in resp:
+            print("V")
+            urls = [entry["url"] for entry in resp["visuallySimilarImages"]]
+        else:
+            return None
+        # print(urls)
+        return [u for u in urls if "amazon.com" in u][0]
     except Exception as e:
-        print(f"FAILED!: {e}")
-        print(resp["responses"][0]["webDetection"])
+        print(f"FAILED to parse webdetection!: {e}")
         return None
 
 def find_amazon(resp):
@@ -274,10 +282,10 @@ def read_cover(image, isfile=False):
     isbns = parse_google_search(resp)
     print(f"google_search: {time.time() - mid}")
     if isbns:
-        final = isbns[0] # (isbn, amazon_link)
-        print(f"ISBN FOUND: {final}")
+        isbn, amazon_link = isbns[0] # (isbn, amazon_link)
+        print(f"ISBN FOUND: {isbn}")
         # print(f"INFO: {get_book_info(final)}")
-        return final
+        return isbn, amazon_link
     else:
         return None
 

@@ -6,6 +6,7 @@ import time
 from werkzeug.utils import secure_filename
 import base64, requests, json
 
+AMAZON_IMG_URL = "http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg"
 app = Flask(__name__, instance_relative_config=True)
 
 @app.route("/get_data", methods=["GET", "POST"])
@@ -40,6 +41,7 @@ def get_data():
 				result = read_cover(image_b64)
 		if result:
 			ISBN, am_link = result
+			response["image_link"] = AMAZON_IMG_URL % ISBN
 		else:
 			return jsonify("everything is fucked")
 		if not ISBN:
@@ -65,7 +67,7 @@ def get_data():
 				response['secondary_data'] = secondary
 
 	except Exception as e:
-		print(f"ERROR: {e}")
+		print(f"ERROR in api: {e}")
 
 	print(f"TOTAL: {time.time() - start}")
 	return jsonify(response)

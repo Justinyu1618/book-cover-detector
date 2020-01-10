@@ -50,6 +50,7 @@ def get_amazon_details(isbn):
     amazon_base_url = "https://www.amazon.com/dp/"
     amazon_url = amazon_base_url + isbn
     resp = requests.get(amazon_url, headers={'User-Agent': 'Mozilla/5.0'})
+    print(resp.content)
     page = resp.content.decode("utf-8")
     # req = Request(amazon_url, headers={'User-Agent': 'Mozilla/5.0'})
     # print(req)
