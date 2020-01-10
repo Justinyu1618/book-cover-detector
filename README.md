@@ -11,7 +11,7 @@ There's only one endpoint
 
 **Methods**
 * GET: (for testing purposes only)
-	* image="sample_covers/[ name of cover image ]"
+	* `image=sample_covers/[ name of cover image ]`
 * POST:
 	* body:
  ```{ image: "base64 encoding of image"}```
@@ -26,9 +26,11 @@ There's only one endpoint
 `isbn=`
 * isbn number of book
 * **required** if `data_type=secondary`
+
+
 ### Response
 **Body:**
-```json
+```
 {
 	"success": , //True if any data is returned
 	"primary_data": {
