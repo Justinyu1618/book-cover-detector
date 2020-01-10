@@ -262,12 +262,17 @@ def read_cover(image, isfile=False):
     if isfile:
         image = open(image, "rb")
         image = base64.b64encode(image.read()).decode("utf-8")
+
+    start = time.time()
     resp = image_detection(image)
     text = get_text(resp)
+    print(f"text_detection: {time.time() - start}")
+    mid = time.time()
     if not text:
         return None
     resp = perform_google_search(text)
     isbns = parse_google_search(resp)
+    print(f"google_search: {time.time() - mid}")
     if isbns:
         final = isbns[0] # (isbn, amazon_link)
         print(f"ISBN FOUND: {final}")
