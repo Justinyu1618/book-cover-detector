@@ -17,6 +17,7 @@ def get_data():
 		'success': False
 	}
 
+	print(request.get_json())
 
 	data_type = request.args.get("data_type")
 	do_prim = data_type == "primary" or data_type is None
