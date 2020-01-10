@@ -21,7 +21,7 @@ def get_data():
 	do_prim = data_type == "primary" or data_type is None
 	do_second = data_type == "secondary" or data_type is None
 	print(do_second, do_prim)
-	if True: # try:
+	try:
 		start = time.time()
 		if request.method == "GET":
 			if("image" not in request.args):
@@ -64,8 +64,8 @@ def get_data():
 				response['success'] = True 
 				response['secondary_data'] = secondary
 
-	# except Exception as e:
-	# 	print(f"ERROR: {e}")
+	except Exception as e:
+		print(f"ERROR: {e}")
 
 	print(f"TOTAL: {time.time() - start}")
 	return jsonify(response)
