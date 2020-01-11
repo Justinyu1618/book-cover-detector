@@ -102,7 +102,7 @@ def home():
 
 if __name__ == '__main__':
 	if os.environ.get("SETTING") == "prod":
-		with open("~/.amazon-product-api", 'w') as file:
+		with open(os.path.expanduser("~")+"/.amazon-product-api", 'w') as file:
 			access_key = os.environ.get("AMAZON_ACCESS_KEY")
 			secret_key = os.environ.get("AMAZON_SECRET_KEY")
 			associate_tag = os.environ.get("ASSOCIATE_KEY")
