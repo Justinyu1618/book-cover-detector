@@ -45,7 +45,7 @@ def get_amazon_page_fast(isbn):
     return page
 
 def get_amazon_page_webdriver(isbn):
-    GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+    GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google-chrome'
     CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
     amazon_base_url = "https://www.amazon.com/dp/"
 
