@@ -76,7 +76,7 @@ def get_data():
 	# 	print(f"ERROR in api: {e}")
 
 	print(f"TOTAL: {time.time() - start}")
-	print(response)
+	pprint(response)
 	return jsonify(response)
 
 @app.route("/receive_file", methods=["POST"])
@@ -93,7 +93,7 @@ def receive_file():
 	image = base64.b64encode(file.read()).decode("utf-8")
 	data = {"image": image}
 	resp = requests.post(f'http://0.0.0.0:5000/get_data?data_type=primary', json=data)
-	pprint(resp.json())
+	# print(resp.json())
 	return jsonify(resp.json())
 
 @app.route("/", methods=["GET"])
