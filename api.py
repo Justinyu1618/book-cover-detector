@@ -5,6 +5,7 @@ from retrieve_info import *
 import time
 from werkzeug.utils import secure_filename
 import base64, requests, json
+from pprint import pprint
 
 AMAZON_IMG_URL = "http://images.amazon.com/images/P/%s.01._SCLZZZZZZZ_.jpg"
 app = Flask(__name__, instance_relative_config=True)
@@ -92,7 +93,7 @@ def receive_file():
 	image = base64.b64encode(file.read()).decode("utf-8")
 	data = {"image": image}
 	resp = requests.post(f'http://0.0.0.0:5000/get_data?data_type=primary', json=data)
-	print(resp.json())
+	pprint(resp.json())
 	return jsonify(resp.json())
 
 @app.route("/", methods=["GET"])
