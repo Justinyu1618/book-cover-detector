@@ -40,7 +40,6 @@ def clean_text(text):
 def get_amazon_page_fast(isbn):
     amazon_base_url = "https://www.amazon.com/dp/"
     resp = requests.get(amazon_base_url + isbn, headers={'User-Agent': 'Mozilla/5.0'})
-    print(resp.content)
     page = resp.content.decode("utf-8")
     return page
 
