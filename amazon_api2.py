@@ -51,7 +51,7 @@ def get_book_info(isbn):
     "lowest_used_price" : lowest_used_price
   }
 
-  return author, title, iframe_url, offer_summary
+  return author, title, iframe_url, offer_summary, affiliate_url
 
 if __name__ == '__main__':
   # for book in api.item_search("Books", Publisher="Galileo Press"):
