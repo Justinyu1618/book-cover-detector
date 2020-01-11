@@ -27,16 +27,20 @@ def strip_tags(html):
 
 api = API(locale='us')
 
-def get_book_info(isbn):
-  # get all books from result set and
-  # print author and title
-
-  # Example single item lookup
+def get_amazon_affiliate_link(isbn):
+  print(isbn)
   result = api.item_lookup(isbn, IdType='ISBN', SearchIndex='Books')
   affiliate_url = result.Items.Item.DetailPageURL
   title = strip_tags(result.Items.Item.ItemAttributes.Title)
   author = result.Items.Item.ItemAttributes.Author
+  return str(author), str(title), str(affiliate_url)
 
+def get_book_reviews_price(isbn):
+  # get all books from result set and
+  # print author and title
+
+  # Example single item lookup
+ 
   # Returns a link to an iframe
   reviews = api.item_lookup(isbn, ResponseGroup='Reviews', TruncateReviewsAt=1024, IncludeReviewsSummary=True)
   iframe_url = reviews.Items.Item.CustomerReviews.IFrameURL
@@ -51,7 +55,7 @@ def get_book_info(isbn):
     "lowest_used_price" : lowest_used_price
   }
 
-  return author, title, iframe_url, offer_summary, affiliate_url
+  return  iframe_url, offer_summary
 
 if __name__ == '__main__':
   # for book in api.item_search("Books", Publisher="Galileo Press"):

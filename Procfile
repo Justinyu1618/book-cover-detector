@@ -1,1 +1,1 @@
-web: python api.py
+web: cd python-amazon-product-api-0.2.8; python setup.py install; cd ..; python api.py
