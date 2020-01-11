@@ -11,6 +11,7 @@ import datetime
 
 if os.environ.get("SETTING") == "prod":
     ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
+    API_KEY = os.environ.get("API_KEY")
 else:
     from _secrets import *
 
@@ -34,7 +35,7 @@ from bs4 import BeautifulSoup
 # jar_path = 'stanford-ner-2018-10-16/stanford-ner.jar'
 # STANF = StanfordNERTagger(classifier_path, jar_path)
 
-GOOGLE_CLOUD_URL = "https://vision.googleapis.com/v1/images:annotate"
+GOOGLE_CLOUD_URL = f"https://vision.googleapis.com/v1/images:annotate?key={API_KEY}"
 OPEN_LIB_URL = 'http://openlibrary.org/api/books?bibkeys=ISBN:%s&format=json&jscmd=data'
 GOOGLE_SEARCH_URL = "https://www.google.com/search?q=%s"
 
@@ -59,21 +60,7 @@ def has_blacklisted(text):
     return False
 
 # ======== API Functions ========
-
-def text_detection(image):
-    encoded_im = base64.b64encode(image.read())
-    data = {"image": {"content": encoded_im.decode('utf-8')},
-            "features": [{"type": "TEXT_DETECTION"}]
-            }
-    payload = {"requests": [data]}
-    auth = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
-
-    resp = requests.post(GOOGLE_CLOUD_URL, json=payload, headers=auth)
-    resp.raise_for_status()
-    return resp
-
-
-def image_detection(encoded_im):
+def image_detection(encoded_im, do_oauth=False):
     data = {"image": {"content": encoded_im},
             "features": [
                 # {"type": "WEB_DETECTION",
@@ -84,9 +71,12 @@ def image_detection(encoded_im):
                 ]
             }
     payload = {"requests": [data]}
-    auth = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
 
-    resp = requests.post(GOOGLE_CLOUD_URL, json=payload, headers=auth)
+    if do_oauth: # Use Oath Playground
+        auth = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
+        resp = requests.post(GOOGLE_CLOUD_URL, json=payload, headers=auth)
+    else: # Use API Key
+        resp = requests.post(GOOGLE_CLOUD_URL, json=payload)#, headers=auth)
     resp.raise_for_status()
     return resp.json()
 
