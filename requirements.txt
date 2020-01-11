@@ -1,0 +1,10 @@
+Flask==1.1.1
+requests==2.18.3
+goodreads==0.3.2
+goodreads-api-client==0.1.0.dev4
+google==2.0.3
+nltk==3.4.5
+bs4==0.0.1
+beautifulsoup4==4.8.2
+Flask-WTF==0.14.2
+selenium==3.141.0

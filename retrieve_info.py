@@ -1,31 +1,32 @@
 
-from goodreads import get_goodreads_details
 from amazon_api2 import get_book_info
+from goodreads_data import get_goodreads_details
+from amazon_data import get_amazon_details
 import datetime
 
-def retrieve_info(isbn):
+def retrieve_primary_info(isbn):
     """
     Takes in ISBN number, spits out a dict of all the data
     about the book
     """
 
-    # Get info with ASIN
+    # Get info with isbn
     author, title, iframe_url, offer_summary = get_book_info(isbn)
+    response_dict = get_goodreads_details(isbn)
+    return response_dict
 
-    # build response dict
-    response_dict = {
-      "Book_Title": book_title,
-      "Authors": authors,
-      "Average_rating": average_rating,
-      "Num_ratings": num_ratings,
-      "pg_count": pg_count,
-      "actual_reviews": actual_reviews,
-      "description": description
-    }
-
+def retrieve_secondary_info(isbn):
+    """
+    Takes in ISBN number, spits out a dict of all the data
+    about the book
+    """
+    response_dict = {"price":None, "reviews":[]}
+    price, reviews = get_amazon_details(isbn)
+    if price: response_dict["price"] = price
+    if reviews: response_dict["reviews"] = reviews
     return response_dict
 
 if __name__ == '__main__':
   startTime = datetime.datetime.now()
-  print(retrieve_info("0393355624"))
+  print(retrieve_primary_info("0393355624"))
   print(datetime.datetime.now() - startTime)

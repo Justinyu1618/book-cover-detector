@@ -1,0 +1,188 @@
+Source: book_covers/macbeth.jpg
+Google ISBNS: 0143128566: [{'title': 'Macbeth', 'author': 'William Shakespeare'}]
+Time:5.010103702545166
+
+Source: book_covers/madame_de_stael.jpg
+ FAILED
+Time:4.5307817459106445
+
+Source: book_covers/madison_house.jpg
+ FAILED
+Time:4.534815788269043
+
+Source: book_covers/madras_on_rainy_days.jpg
+Google ISBNS: 0312423306: [{'title': 'Madras on Rainy Days', 'author': 'Samina Ali'}]
+Time:4.495626926422119
+
+Source: book_covers/make_room!_make_room!.jpg
+Google ISBNS: 1491582677: []
+Time:3.9009644985198975
+
+Source: book_covers/making_certain_it_goes_on.jpg
+Google ISBNS: 0393307840: [{'title': 'Making certain it goes on', 'author': 'Hugo, Richard'}]1555973841: [{'title': 'The Best Short Stories of William Kittredge', 'author': 'William Kittredge'}]
+Time:3.9651970863342285
+
+Source: book_covers/making_it_up.jpg
+Google ISBNS: 0762460849: [{'title': 'Make it up', 'author': 'Marie Rayma'}]
+Time:4.1753740310668945
+
+Source: book_covers/man_alone_with_himself.jpg
+Google ISBNS: 0141036680: [{'title': 'Man Alone with Himself', 'author': 'Friedrich Nietzsche'}]0143036343: [{'title': 'Why I Am So Wise (Penguin Great Ideas)', 'author': 'Friedrich Nietzsche'}]
+Time:4.6451499462127686
+
+Source: book_covers/man_and_camel.jpg
+Google ISBNS: 0375711260: [{'title': 'Man and Camel', 'author': 'Mark Strand'}]0804170851: [{'title': 'Collected poems', 'author': 'Mark Strand'}]0375709703: [{'title': 'The Weather of Words', 'author': 'Mark Strand'}]0375712186: []
+Time:4.520735740661621
+
+Source: book_covers/mandela.jpg
+Google ISBNS: 1586489518: []
+Time:4.305634260177612
+
+Source: book_covers/manhood_for_amateurs.jpg
+Google ISBNS: 0061490180: [{'title': 'Manhood for amateurs', 'author': 'Michael Chabon'}]0061490199: [{'title': 'Manhood for Amateurs', 'author': 'Michael Chabon'}]0062851128: [{'title': 'Pops', 'author': 'Michael Chabon'}]0062834622: [{'title': 'Pops', 'author': 'Michael Chabon'}]
+Time:4.684520244598389
+
+Source: book_covers/man_in_the_high_castle.jpg
+Google ISBNS: 0547572484: [{'title': 'The man in the high castle', 'author': 'Philip K. Dick'}]7540726083: []
+Time:4.1974146366119385
+
+Source: book_covers/mao_ii.jpg
+Google ISBNS: 0140152741: [{'title': 'Mao II', 'author': 'Don DeLillo'}]3462022105: [{'title': 'Mao II.', 'author': 'Don DeLillo'}]8432215678: []8835502217: []
+Time:4.051796197891235
+
+Source: book_covers/maps_of_the_imagination.jpg
+Google ISBNS: 1595340416: [{'title': 'Maps of the Imagination', 'author': 'Peter Turchi'}]159534005X: [{'title': 'Maps of the imagination', 'author': 'Peter Turchi'}]
+Time:4.071180105209351
+
+Source: book_covers/marabou_stork_nightmares.jpg
+Google ISBNS: 0393315630: [{'title': 'MARIBOU STORK NIGHTMARES', 'author': 'Irvine Welsh'}]0393038459: [{'title': 'Marabou stork nightmares', 'author': 'Irvine Welsh'}]
+Time:4.157851696014404
+
+Source: book_covers/martha_and_hanwell.jpg
+Google ISBNS: 0141023120: [{'title': 'Martha and Hanwell', 'author': 'Zadie Smith'}]
+Time:4.17265772819519
+
+Source: book_covers/material_material.jpg
+Google ISBNS: 0692636978: []1717554709: []1532815107: []1452137439: [{'title': 'They drew as they pleased', 'author': 'Didier Ghez'}]
+Time:4.2148756980896
+
+Source: book_covers/matters_of_honor.jpg
+Google ISBNS: 0345494342: [{'title': 'Matters of Honor', 'author': 'Louis Begley'}]0449909115: []
+Time:4.260791540145874
+
+Source: book_covers/mcsweeney’s_enchanted_chamber_of_astonishing_stories.jpg
+Google ISBNS: 1400078741: [{'title': "McSweeney's enchanted chamber of astonishing stories", 'author': 'Michael Mignola'}]
+Time:4.50050950050354
+
+Source: book_covers/mcsweeney’s_mammoth_treasury_of_thrilling_tales.jpg
+Google ISBNS: 140003339X: [{'title': "McSweeney's mammoth treasury of thrilling tales", 'author': 'Michael Chabon'}]0241142318: [{'title': "McSweeney's mammoth treasury of thrilling tales", 'author': 'Michael Chabon'}]140003339X: [{'title': "McSweeney's mammoth treasury of thrilling tales", 'author': 'Michael Chabon'}]
+Time:4.382928371429443
+
+Source: book_covers/mcsweeney’s_quarterly_concern_issue_13.jpg
+ FAILED
+Time:4.044827938079834
+
+Source: book_covers/meditations.jpg
+Google ISBNS: 0141192356: []0141192356: []
+Time:4.71586537361145
+
+Source: book_covers/me_funny.jpg
+Google ISBNS: 1553651375: [{'title': 'Me funny', 'author': 'Drew Hayden Taylor'}]
+Time:5.146528720855713
+
+Source: book_covers/memorial.jpg
+Google ISBNS: 0743243404: [{'title': 'The Chrysanthemum Palace', 'author': 'Bruce Wagner'}]
+Time:4.168372631072998
+
+Source: book_covers/men_and_cartoons (1).jpg
+Google ISBNS: 0385512163: [{'title': 'Men and cartoons', 'author': 'Jonathan Lethem'}]1400076803: [{'title': 'Men and Cartoons', 'author': 'Jonathan Lethem'}]1415903611: []0739314890: []0571224512: []
+Time:3.9829258918762207
+
+Source: book_covers/men_and_cartoons.jpg
+ FAILED
+Time:6.977952480316162
+
+Source: book_covers/men_of_tomorrow (1).jpg
+Google ISBNS: 0465036570: [{'title': 'Men Of Tomorrow', 'author': 'Gerard Jones'}]
+Time:4.397575616836548
+
+Source: book_covers/men_of_tomorrow.jpg
+Google ISBNS: 0465036570: [{'title': 'Men Of Tomorrow', 'author': 'Gerard Jones'}]
+Time:4.603512525558472
+
+Source: book_covers/mental_models.jpg
+Google ISBNS: 1933820063: [{'title': 'Mental Models', 'author': 'Indi Young'}]1933820063: [{'title': 'Mental Models', 'author': 'Indi Young'}]1933820063: [{'title': 'Mental Models', 'author': 'Indi Young'}]
+Time:4.466199159622192
+
+Source: book_covers/mercury_dressing.jpg
+Google ISBNS: 0062982559: []1784082392: [{'title': 'The dress', 'author': 'Kate Kerrigan'}]
+Time:4.084743976593018
+
+Source: book_covers/meta_math!.jpg
+Google ISBNS: 1400077974: [{'title': 'Meta Math!', 'author': 'Gregory Chaitin'}]184354525X: []
+Time:4.453168630599976
+
+Source: book_covers/metamorphosis_and_other_stories.jpg
+Google ISBNS: 0199238294: [{'title': 'The trial.', 'author': 'Franz Kafka'}]0804190119: [{'title': 'On tyranny', 'author': 'Timothy Snyder'}]006257406X: [{'title': 'The Tenth Muse', 'author': 'Catherine Chung'}]158617990X: [{'title': 'A Deeper Vision', 'author': 'Robert Royal'}]
+Time:4.243872880935669
+
+Source: book_covers/microthrills.jpg
+ FAILED
+Time:4.115411043167114
+
+Source: book_covers/milk.jpg
+Google ISBNS: 1400044103: [{'title': 'Milk', 'author': 'Anne Mendelson'}]
+Time:4.447134017944336
+
+Source: book_covers/ministry_of_special_cases.jpg
+Google ISBNS: 0375704442: [{'title': 'Ministry of Special Cases, The (Vintage International)', 'author': 'Nathan Englander'}]0571235441: [{'title': 'The Ministry of Special Cases', 'author': 'englander-nathan'}]
+Time:7.946552276611328
+
+Source: book_covers/miracles_and_idolatry.jpg
+Google ISBNS: 0141023929: [{'title': 'MIRACLES AND IDOLATRY', 'author': 'Voltaire'}]
+Time:4.7442309856414795
+
+Source: book_covers/missing_men.jpg
+ FAILED
+Time:4.559494733810425
+
+Source: book_covers/mississippi_sissy.jpg
+Google ISBNS: 1732265194: []1538718464: [{'title': 'A Warning', 'author': 'Anonymous'}]1451697724: []1541742354: []0062913468: [{'title': 'Nothing to See Here', 'author': 'Kevin Wilson'}]
+Time:4.284411668777466
+
+Source: book_covers/mixed.jpg
+Google ISBNS: 0393327868: [{'title': 'Mixed', 'author': 'Chandra Prasad'}]
+Time:4.334566831588745
+
+Source: book_covers/money.jpg
+Google ISBNS: 0143116959: [{'title': 'Money A Suicide Note', 'author': 'Martin Amis'}]0099461889: [{'title': 'Money', 'author': 'Martin Amis'}]
+Time:4.278154134750366
+
+Source: book_covers/moondust.jpg
+ FAILED
+Time:5.166208982467651
+
+Source: book_covers/moral_disorder.jpg
+Google ISBNS: 0385721641: [{'title': 'Moral disorder', 'author': 'Margaret Atwood'}]
+Time:5.269838333129883
+
+Source: book_covers/moral_relativism.jpg
+Google ISBNS: 0312427190: [{'title': 'Moral relativism', 'author': 'Steven Lukes'}]1846680093: []0312427190: [{'title': 'Moral relativism', 'author': 'Steven Lukes'}]0312427190: [{'title': 'Moral relativism', 'author': 'Steven Lukes'}]
+Time:4.996323347091675
+
+Source: book_covers/more_joel_on_software.jpg
+Google ISBNS: 1430209879: [{'title': 'More Joel on software', 'author': 'Joel Spolsky'}]1590593898: [{'title': 'Joel on software', 'author': 'Joel Spolsky'}]
+Time:4.458173990249634
+
+Source: book_covers/mortimer_of_the_maghreb.jpg
+Google ISBNS: 1400078512: [{'title': 'Mortimer of the Maghreb', 'author': 'Henry Shukman'}]0002551918: [{'title': 'Savage pilgrims', 'author': 'Henry Shukman'}]0224097423: [{'title': 'Archangel', 'author': 'Henry Shukman'}]
+Time:4.564988851547241
+
+Source: book_covers/mother_california.jpg
+Google ISBNS: 0692358331: []
+Time:4.128658056259155
+
+Source: book_covers/mother_night.jpg
+Google ISBNS: 1583229183: [{'title': 'Grand Central winter', 'author': 'Lee Stringer'}]0671036548: [{'title': 'Grand Central winter', 'author': 'Lee Stringer'}]
+Time:4.488741636276245
+
