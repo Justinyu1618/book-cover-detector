@@ -23,8 +23,8 @@ def retrieve_secondary_info(isbn):
     Takes in ISBN number, spits out a dict of all the data
     about the book
     """
-    iframe_url, offer_summary = get_book_reviews_price(isbn)
-    print(iframe_url, offer_summary)
+    # iframe_url, offer_summary = get_book_reviews_price(isbn)
+    # print(iframe_url, offer_summary)
 
     response_dict = {"price":None, "reviews":[]}
     price, reviews = get_amazon_details(isbn)

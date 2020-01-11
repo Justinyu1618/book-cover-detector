@@ -105,7 +105,7 @@ if __name__ == '__main__':
 		with open(os.path.expanduser("~")+"/.amazon-product-api", 'w') as file:
 			access_key = os.environ.get("AMAZON_ACCESS_KEY")
 			secret_key = os.environ.get("AMAZON_SECRET_KEY")
-			associate_tag = os.environ.get("ASSOCIATE_KEY")
+			associate_tag = os.environ.get("ASSOCIATE_TAG")
 			creds = f"[Credentials]\naccess_key={access_key}\nsecret_key={secret_key}\nassociate_tag={associate_tag}"
 			file.write(creds)
 	port = int(os.environ.get("PORT", 5000))
