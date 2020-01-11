@@ -83,6 +83,9 @@ def get_amazon_details(isbn):
     if re_blocked.search(page):
         print("FUCK AMAZON")
         page = get_amazon_page_webdriver(isbn)
+
+    if re_blocked.search(page):
+        print(page)
     price = re_price.search(page)
 
     if price is None: price = re_price2.search(page)
