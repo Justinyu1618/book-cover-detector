@@ -54,7 +54,7 @@ def get_amazon_page_webdriver(isbn):
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument('--no-sandbox')
         chrome_options.binary_location = GOOGLE_CHROME_PATH
-        driver = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
+        driver = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)
     else:
         driver = webdriver.Chrome()
 
