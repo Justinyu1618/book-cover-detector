@@ -14,16 +14,9 @@ def retrieve_primary_info(isbn):
     reduced_book = get_goodreads_details(isbn)
     author, title, affiliate_url = get_amazon_affiliate_link(isbn)
 
-    response_dict = {
-      "title": title,
-      "affiliate_url": affiliate_url,
-      "author": author,
-      "average_rating": reduced_book['average_rating'],
-      "num_pages": reduced_book['num_pages'],
-      "ratings_count": reduced_book['ratings_count']
-    }
-
-    return response_dict
+    reduced_book["affiliate_url"] = affiliate_url
+    reduced_book["author"] = author
+    return reduced_book
 
 def retrieve_secondary_info(isbn):
     """
