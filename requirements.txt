@@ -7,3 +7,4 @@ nltk==3.4.5
 bs4==0.0.1
 beautifulsoup4==4.8.2
 Flask-WTF==0.14.2
+selenium==3.141.0

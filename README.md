@@ -33,6 +33,7 @@ There's only one endpoint
 ```
 {
 	"success": , //True if any data is returned
+	"image_link": , // link to book cover
 	"primary_data": {
 		"amazon": , //amazon product link
 		"title": , //book title

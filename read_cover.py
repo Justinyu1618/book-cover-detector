@@ -107,8 +107,9 @@ def clean_google_query(query):
 
 def perform_google_search(query):
     query = clean_google_query(query)
-    print(query)
+    # print(query)
     query = " ".join(query) + " Amazon Books"
+    print(query)
     
     resp = search(query, tld="com", stop=5)
     return resp

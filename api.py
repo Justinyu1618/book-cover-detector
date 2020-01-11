@@ -17,39 +17,39 @@ def get_data():
 		'success': False
 	}
 
-	print(request.get_json())
-
 	data_type = request.args.get("data_type")
 	do_prim = data_type == "primary" or data_type is None
 	do_second = data_type == "secondary" or data_type is None
-	print(do_second, do_prim)
-	try:
-		start = time.time()
-		if request.method == "GET":
-			if("image" not in request.args):
-				return open("index.html","r").read()
-			image_file = request.args.get("image")  #base64 encoded image
-			result = read_cover(image_file, isfile=True)
-		else:
-			if 'file' in request.files:
-				file = request.files['file']
-				if file.filename == '':
-					return "No File Found"
-				image = base64.b64encode(file.read()).decode("utf-8")
-				result = read_cover(image)
-			else:
-				image_b64 = request.get_json()["image"]
-				result = read_cover(image_b64)
-		if result:
-			ISBN, am_link = result
-			response["image_link"] = AMAZON_IMG_URL % ISBN
-		else:
-			return jsonify("everything is fucked")
-		if not ISBN:
-			return "NO ISBN FOUND! :("
-		print(f"COVER: {time.time() - start}")
+	print(do_prim, do_second)
 
+	if True: #try:
+		start = time.time()
+		ISBN = None
 		if do_prim:
+			if request.method == "GET":
+				if("image" not in request.args):
+					return open("index.html","r").read()
+				image_file = request.args.get("image")  #base64 encoded image
+				result = read_cover(image_file, isfile=True)
+			elif request.method == "POST":
+				if 'file' in request.files:
+					file = request.files['file']
+					if file.filename == '':
+						return "No File Found"
+					image = base64.b64encode(file.read()).decode("utf-8")
+					result = read_cover(image)
+				else:
+					image_b64 = request.get_json()["image"]
+					result = read_cover(image_b64)
+			if result:
+				ISBN, am_link = result
+				response["image_link"] = AMAZON_IMG_URL % ISBN
+			else:
+				return jsonify("everything is fucked")
+			if not ISBN:
+				return "NO ISBN FOUND! :("
+			print(f"COVER: {time.time() - start}")
+
 			mid = time.time()
 			primary = retrieve_primary_info(ISBN)
 			primary["isbn"] = ISBN
@@ -59,6 +59,12 @@ def get_data():
 				response['success'] = True 
 				response['primary_data'] = primary
 
+		if ISBN is None:
+			if "isbn" in request.args: 
+				ISBN = request.args.get("isbn")
+			else:
+				return "ISBN not found in parameters"
+
 		if do_second:
 			late = time.time()
 			secondary = retrieve_secondary_info(ISBN)
@@ -67,8 +73,8 @@ def get_data():
 				response['success'] = True 
 				response['secondary_data'] = secondary
 
-	except Exception as e:
-		print(f"ERROR in api: {e}")
+	# except Exception as e:
+	# 	print(f"ERROR in api: {e}")
 
 	print(f"TOTAL: {time.time() - start}")
 	return jsonify(response)
