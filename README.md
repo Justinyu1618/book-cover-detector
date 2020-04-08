@@ -1,5 +1,8 @@
-# book-cover-detector
+# Book Cover Detector
 
+![gif](https://github.com/Justinyu1618/book-cover-detector/blob/master/dis_cover.gif?raw=true)
+
+## Development
 Change secrets.txt --> secrets.py and populate with secrets
 
 
