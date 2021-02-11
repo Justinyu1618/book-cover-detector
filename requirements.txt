@@ -1,5 +1,5 @@
 Flask==1.1.1
-requests==2.18.3
+requests==2.20.0
 goodreads==0.3.2
 goodreads-api-client==0.1.0.dev4
 google==2.0.3
